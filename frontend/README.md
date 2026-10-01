@@ -1,16 +1,72 @@
-# React + Vite
+# 🏏 Cricket Score Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A full-stack web application for managing cricket matches, teams, players, innings, ball-by-ball deliveries, live scores, and match statistics.
 
-Currently, two official plugins are available:
+## 📌 Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The Cricket Score Management System is a web-based application developed using React, Spring Boot, and MySQL.
 
-## React Compiler
+The system allows users to manage cricket teams and players, create matches, record ball-by-ball events, automatically calculate scores, track wickets and overs, and view live match statistics.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the Oxlint configuration
+- 🏏 Live cricket score management
+- 👥 Team management
+- 🧑‍🏏 Player management
+- 📅 Match management
+- 🏟️ Match venue and match type management
+- 📊 Innings management
+- ⚾ Ball-by-ball delivery recording
+- 🏃 Automatic run calculation
+- ❌ Automatic wicket calculation
+- 📈 Batting statistics
+- 🎯 Bowling statistics
+- 📋 Match summary
+- 🔄 Automatic match status update
+- 💾 MySQL database storage
+- 🔌 REST APIs
+- 📱 Responsive web interface
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 🛠️ Technology Stack
+
+### Frontend
+
+- React
+- Vite
+- JavaScript
+- CSS
+- Axios
+
+### Backend
+
+- Java
+- Spring Boot
+- Spring Web
+- Spring Data JPA
+- Hibernate
+- Maven
+
+### Database
+
+- MySQL
+- MySQL Workbench
+
+### Development Tools
+
+- Visual Studio Code
+- Postman
+- Git
+- GitHub
+
+## 🏗️ System Architecture
+
+```text
+React Frontend
+       ↓
+    Axios
+       ↓
+Spring Boot REST API
+       ↓
+Spring Data JPA
+       ↓
+     MySQL
